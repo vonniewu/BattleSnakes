@@ -15,9 +15,9 @@ public abstract class AbstractSnake {
         RIGHT
     }
 
-    private LinkedList<Point<Integer>> snakeBits;
-    private Direction direction;
-    private int initialLength;
+    protected LinkedList<Point<Integer>> snakeBits;
+    protected Direction direction;
+    protected int initialLength;
 
     public AbstractSnake(int headX, int headY, int initialLength, Direction direction) {
         this.direction = direction;
