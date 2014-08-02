@@ -82,9 +82,13 @@ public class SnakeArena {
         return player2Snake;
     }
 
+    public Controller getPlayer1Controller() { return player1Controller; }
+
     public void setPlayer1Controller(Controller controller) {
         player1Controller = controller;
     }
+
+    public Controller getPlayer2Controller() { return player2Controller; }
 
     public void setPlayer2Controller(Controller controller) {
         player2Controller = controller;
